@@ -35,6 +35,7 @@ pipeline {
                 docker push shivansh7310/easy-backend:latest
                 '''
             }
+	}
             stage('DOCKER-CLEAN') {
             steps {
                 sh '''
